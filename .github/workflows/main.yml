@@ -12,8 +12,8 @@ jobs:
       - name: Hello world action step
         id: hello
         uses: impks27/hello-world-javascript-action@v1.1
-        with:
-          who-to-greet: 'Steve Harvey'
+        #with:
+          #who-to-greet: 'Steve Harvey'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
