@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: impks27/hello-world-javascript-action@v1.1
+        uses: impks27/hello-world-javascript-action@v1.2
         #with:
           #who-to-greet: 'Steve Harvey'
       # Use the output from the `hello` step
